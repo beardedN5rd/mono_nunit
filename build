@@ -1,0 +1,5 @@
+#!/bin/bash
+
+eval "docker build -f Dockerfile -t beardedn5rd/mono:latest ."
+
+docker images | grep beardedn5rd

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+eval "docker rmi -f  beardedn5rd/mono:latest"
+
+docker images | grep beardedn5rd
